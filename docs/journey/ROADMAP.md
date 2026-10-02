@@ -11,7 +11,7 @@
 | Fact | Consequence |
 |---|---|
 | Today is **2 Oct**. **Accenture drive starts 28 Oct.** | Interview-ready window is **~3.5 weeks**. See the **Revised timeline (Rev 1)** below; it supersedes the phase dates in section 3. |
-| **End-sem exams start 8 Nov.** | About 8 Nov – late Nov is **maintenance mode**: no new builds, 30 min/day recall only. |
+| **End-sem exams: 8 Nov – 2 Dec.** | That window is **maintenance mode**: no new builds, 30 min/day recall only. |
 | The repo (`RePlate`) is **empty**. | V1 starts from zero. Good: every decision in it will be yours and explainable. |
 | You work on **macOS**. | Shell commands are given for macOS (zsh, Homebrew). |
 | You have **~16.5 h/week backend+project** and **~10 h/week AI**. | Two parallel tracks. They meet at V8, when the backend calls the ML service. |
@@ -32,12 +32,13 @@ Accenture-style drives (aptitude, coding, communication, then a fairly light tec
 | **16–22 Oct** (W3) | V2: bcrypt, JWT, RBAC, ownership. **Deploy** (live URL) | ML foundations: split, baseline, leakage | V2 live |
 | **23–27 Oct** | **Accenture sprint:** README, architecture diagram, 2-min pitch, mock interview on the project. Use Core Revision slots for DBMS/SQL and OOP | Light: metrics + overfitting only | Interview-ready |
 | **28 Oct – 7 Nov** | V3 deterministic matching + **indexes** (`explain()`) in reduced load, alongside exam prep | First surplus model (offline) | Matching explained with numbers |
-| **8 Nov – end of exams** | **Maintenance mode:** 30 min/day recall, no new code | — | Don't lose momentum, don't risk exams |
-| **After exams → mid Dec** | V4 geo, V5 Docker + CI + logs, V6 Redis (only after a load test), V7 queue/worker | FastAPI inference, LLM structured output | Production-grade backend |
-| **Mid Dec → mid Jan** | V8–V10 ML in the product, V13 failure drills | Evaluation, RAG (small), MLflow | ML justified and integrated |
-| **Mid Jan → end Jan+** | V11 service split, Kafka (design-level), V14 system design, polish | Drift concept | Final design + mocks |
+| **8 Nov – 2 Dec** | **Maintenance mode:** 30 min/day recall, no new code | — | Don't lose momentum, don't risk exams |
+| **3 – 20 Dec** | V4 geo, V5 Docker + CI + logs, V6 Redis (only after a load test) | FastAPI inference service for the surplus model | Production-grade backend |
+| **21 Dec – 10 Jan** | V7 queue/worker + idempotency, V8 ML integrated into product (timeout + fallback) | LLM fundamentals, structured output feature | Async + ML in product |
+| **11 – 31 Jan** | V9/V10 (rule-based first, ML only where it wins), V13 failure drills | Embeddings, small RAG, MLflow tracking | Failure-aware, ML justified |
+| **Feb (buffer)** | V11 service split, Kafka (design-level), V14 system design, polish, mocks | Drift concept | Final design + mocks |
 
-What gets pushed back: Phase 2–5 shift by about 3 weeks because of exams. Nothing essential is dropped; V12 (production ML) shrinks to MLflow tracking + drift concepts.
+What gets pushed back: Phase 2–5 shift by about 4 weeks because of exams, with February as overflow. Nothing essential is dropped; V12 (production ML) shrinks to MLflow tracking + drift concepts.
 
 ---
 
